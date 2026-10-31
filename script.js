@@ -2,7 +2,7 @@
 const translations = {
     fr: {
         "nav_home": "Accueil",
-        "nav_academics": "Parcours académique",
+        "nav_academic": "Parcours académique",
         "nav_mobility": "Projet de mobilité",
         "nav_engagements": "Engagements",
         "nav_projects": "Projets",
@@ -22,6 +22,8 @@ const translations = {
         "mob_1_tag": "Destination prévue",
         "mob_1_country": "Canada (Montréal)",
         "mob_1_desc": "Semestre d'études ou double diplôme (Polytechnique Montréal) pour leur excellence en informatique. De plus le Canada offre un environnement bilingue ce qui permettrait de renforcer mes compétences linguistiques en anglais.",
+        "mob_2_country":"Suisse",        
+        "mob_2_desc": "La Suisse est reconnue pour son excellence mondiale en terme de cybersécurité et de cryptographie ainsi que leurs exigences en terme de protection des données. La Suisse offre également un environnement bilingue très intéressant.",
         "eng_title": "Engagements",
         "eng_1_title": "Engagement écologique",
         "eng_1_desc": "Participation à des initiatives écologiques et durables pour réduire l'empreinte carbone et promouvoir la sensibilisation environnementale.",
@@ -48,7 +50,7 @@ const translations = {
     },
     en: {
         "nav_home": "Home",
-        "nav_academics": "Academic Background",
+        "nav_academic": "Academic Background",
         "nav_mobility": "Mobility Project",
         "nav_engagements": "Engagements",
         "nav_projects": "Projects",
@@ -68,6 +70,8 @@ const translations = {
         "mob_1_tag": "Planned Destination",
         "mob_1_country": "Canada (Montreal)",
         "mob_1_desc": "Study semester or double degree (Polytechnique Montréal) for their excellence in computer science. Additionally, Canada offers a bilingual environment which would help strengthen my English language skills.",
+        "mob_2_country": "Switzerland",
+        "mob_2_desc": "Switzerland is recognized for its global excellence in cybersecurity and cryptography, as well as its stringent data protection requirements. Switzerland also offers a very interesting bilingual environment.",
         "civic_title": "Engagements",
         "civic_intro": "The engineering profession implies a social and environmental responsibility. Here are the concrete actions I participate in:",
         "civic_eco_title": "Ecological Awareness & Responsible Computing",
