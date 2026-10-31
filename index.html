@@ -127,15 +127,14 @@
                     <div class="lg:col-span-6">
                         <div class="rounded-xl overflow-hidden border border-slate-200 bg-slate-50 shadow-sm">
                             <div class="aspect-video bg-slate-900 relative">
-                                <video 
-                                    id="pitch-video"
-                                    class="w-full h-full object-cover" 
-                                    controls 
-                                    preload="metadata"
-                                    poster="couverture.jpg">
-                                    <source src="https://youtu.be/NeWgRP3w1qc" type="video/mp4">
-                                    Votre navigateur ne supporte pas la lecture vidéo.
-                                </video>
+                                <iframe
+                                    class="w-full h-full"
+                                    src="https://www.youtube-nocookie.com/embed/NeWgRP3w1qc"
+                                    title="Vidéo de présentation (Elevator Pitch)"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin"
+                                    allowfullscreen>
+                                </iframe>
                             </div>
                             <div class="px-4 py-2.5 bg-white flex items-center justify-between text-xs text-slate-500">
                                 <span data-i18n="video_caption">Vidéo de présentation (Elevator Pitch)</span>
